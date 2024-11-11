@@ -1,0 +1,86 @@
+/*Antonio Iglesias Refolio*/
+
+body {
+    font-family: 'Monserrat', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; 
+    color: #0b0a0a;
+}
+
+header {
+    background-color: #333; 
+}
+
+.barraNavegacion {
+    background-color: #333; 
+    padding: 10px 0;
+}
+
+.listaNavegacion {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listaNavegacion li {
+    margin: 0 20px;
+}
+
+.listaNavegacion a {
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+
+.listaNavegacion a:hover {
+    color: #a9065d; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    border: 2px solid #4caf50; 
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #4caf50; 
+    text-decoration: none;
+    width: 150px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.button img {
+    width: 100%; 
+    border-radius: 8px;
+}
+
+.button span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+footer{
+    background-color: #333;
+    color: grey;
+    text-align: center;
+}
